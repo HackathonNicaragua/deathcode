@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Sidebar Navigation Demo</title>
+  <title>SCM</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
@@ -27,31 +27,17 @@
   </nav>
   <div class="sidebar hide-sidebar">
     <ul class="centered">
-      <li><i class="fa fa-home" aria-hidden="true"></i> Inicio</li>
-      <li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de death code</li>
-      <li><i class="fa fa-folder" aria-hidden="true"></i> Reportes</li>
-      <li><i class="fa fa-paper-plane" aria-hidden="true"></i> Contactos</li>
-
-       <li><a class="btn btn-danger" href="#">
-  <i class="fa fa-trash-o fa-lg fa-1x"></i> Delete</a> Cesar</li>
-      <!--<li><i class="fa fa-spinner fa-spin fa-1x fa-fw"></i>
-      <span class="sr-only">Loading...</span>Jeffrey</li>
-<li><i class="fa fa-battery-half" aria-hidden="true"></i>
-<span class="sr-only">Battery level: 50%</span>Jason</li>
-<li><a class="btn btn-danger" href="#">
-  <i class="fa fa-trash-o fa-lg fa-1x"></i> Delete</a>Cesar</li>
-<li></li>
-<li></li>
-<li></li>-->
+      <li><i class="fa fa-home" aria-hidden="true"></i> Inicio&nbsp; </li>
+      <li><i class="fa fa-folder" aria-hidden="true"></i> Reporte</li>
+      <li><i class="fa fa-paper-plane" aria-hidden="true"></i> Analisis</li>
+      <li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de</li>
     </ul>
   </div>
   <div class="main">
-  <h1> Principal plantilla para DeatH Code</h1>
-
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
+  <h1> Sistema Creativo De Marketing</h1>
+        <h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Death Code TM. </h2>
   </div>
+
 
 </body>
     <script type="text/javascript">
