@@ -22,13 +22,13 @@
 <body style="font-family:'Segoe UI'">
     <nav>
     <ul>
-      <li class="menu"><i class="fa fa-bars" aria-hidden="true"></i></li>
+      <li class="menu"><i class="fa fa-bars" aria-hidden="true" style="width: 4px"></i></li>
     </ul>
   </nav>
   <div class="sidebar hide-sidebar">
     <ul class="centered">
       <a href ="Default.aspx" style="text-decoration:none"><li><i class="fa fa-home" aria-hidden="true"></i> Inicio&nbsp; </li></a>
-      <li><i class="fa fa-folder" aria-hidden="true"></i> Reporte</li>
+      <a href="reporteweb.aspx"><li><i class="fa fa-folder" aria-hidden="true"></i> Reporte</li></a>
       <li><i class="fa fa-paper-plane" aria-hidden="true"></i> Analisis</li>
       <a href="Info.aspx" style="text-decoration:none"><li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de</li></a>
     </ul>
