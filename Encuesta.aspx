@@ -20,7 +20,7 @@
 
         <div><h3>Seleccione su edad</h3>
             <p>
-                <asp:RadioButtonList ID="RadioButtonList10" runat="server">
+                <asp:RadioButtonList ID="RadioButtonList10" runat="server" >
                     <asp:ListItem Value="1">18-25 </asp:ListItem>
                     <asp:ListItem Value="2">26-30</asp:ListItem>
                     <asp:ListItem Value="3">31-40</asp:ListItem>
