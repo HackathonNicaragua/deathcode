@@ -17,6 +17,17 @@ public class conexion
         // TODO: Agregar aquí la lógica del constructor
         //
     }
+
+
+public static SqlConnection ObtnerCOnexion()
+{
+    SqlConnection Conn = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM1; Integrated Security=true");
+    Conn.Open();
+
+    return Conn;
+
+}
+
     SqlConnection c = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM1; Integrated Security=true");
 
     public void open()

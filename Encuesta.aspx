@@ -110,7 +110,6 @@
         <asp:RadioButtonList ID="RadioButtonList7" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem>Si</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
-            <asp:ListItem>Tal vez</asp:ListItem>
         </asp:RadioButtonList>
 
         <div><h3>¿Con que frecuencia visita nuestro servicio?</h3></div>
