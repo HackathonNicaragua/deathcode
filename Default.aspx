@@ -30,7 +30,7 @@
         <li><img src="images/ss.png" width="110" height="100"></li>
       <a href ="Default.aspx" style="text-decoration:none"><li><i class="fa fa-home" aria-hidden="true"></i> Inicio&nbsp; </li></a>
      <a href ="rep.aspx" style="text-decoration:none"> <li><i class="fa fa-folder" aria-hidden="true"></i> Reporte</li></a>
-      <li><i class="fa fa-paper-plane" aria-hidden="true"></i> Analisis</li>
+      <a href="Encuesta.aspx" style="text-decoration:none"><li><i class="fa fa-paper-plane" aria-hidden="true"></i> Encuesta</li></a>
       <a href="Info.aspx" style="text-decoration:none"><li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de</li></a>
     </ul>
   </div>
