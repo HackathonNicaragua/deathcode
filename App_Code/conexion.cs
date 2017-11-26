@@ -21,14 +21,14 @@ public class conexion
 
 public static SqlConnection ObtnerCOnexion()
 {
-    SqlConnection Conn = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM1; Integrated Security=true");
+    SqlConnection Conn = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM; Integrated Security=true");
     Conn.Open();
 
     return Conn;
 
 }
 
-    SqlConnection c = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM1; Integrated Security=true");
+    SqlConnection c = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM; Integrated Security=true");
 
     public void open()
     {

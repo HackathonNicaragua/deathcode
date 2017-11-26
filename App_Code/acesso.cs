@@ -26,11 +26,10 @@ public class acesso
 
         int resultado = 0;
 
-        String QuerySQL = "SELECT users FROM Usuario WHERE users = @users AND CONVERT(varchar(10),DECRYPTBYPASSPHRASE(@PASS,passwordd)) = @PASS";
-
-        SqlCommand sqlCommand = new SqlCommand(QuerySQL, s);
-        sqlCommand.Parameters.AddWithValue("@users", usuario);
-        sqlCommand.Parameters.AddWithValue("@PASS", contraseña);
+        SqlCommand sqlCommand = new SqlCommand("Validación_Usuario",s);
+        sqlCommand.CommandType = CommandType.StoredProcedure;
+        sqlCommand.Parameters.AddWithValue("@NombreDeUsuario", usuario);
+        sqlCommand.Parameters.AddWithValue("@Contraseña", contraseña);
       
         SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
 
