@@ -20,22 +20,16 @@
 
         <div><h3>Seleccione su edad</h3>
             <p>
-                <asp:RadioButtonList ID="RadioButtonList10" runat="server" >
-                    <asp:ListItem Value="1">18-25 </asp:ListItem>
-                    <asp:ListItem Value="2">26-30</asp:ListItem>
-                    <asp:ListItem Value="3">31-40</asp:ListItem>
-                    <asp:ListItem Value="4">41-50</asp:ListItem>
-                    <asp:ListItem Value="5">51-60 más</asp:ListItem>
-                </asp:RadioButtonList>
+                <asp:TextBox ID="TextEdad" runat="server" OnTextChanged="TextBox1_TextChanged" style="width: 128px"></asp:TextBox>
             </p>
         </div>
 
     <div style="text-align: left">
         <H3>¿Cómo valora el servicio recibido?</H3>
          <asp:RadioButtonList ID="RadioButtonList1" runat="server" BorderStyle="None" >
-            <asp:ListItem Value="1">Bueno</asp:ListItem>
-            <asp:ListItem Value="2">Regular</asp:ListItem>
-            <asp:ListItem Value="3">Malo</asp:ListItem>
+            <asp:ListItem Value="Bueno">Bueno</asp:ListItem>
+            <asp:ListItem Value="Regular">Regular</asp:ListItem>
+            <asp:ListItem Value="Malo">Malo</asp:ListItem>
         </asp:RadioButtonList>
         <br />
     </div>
@@ -57,7 +51,7 @@
 
        <div>
            <h3>De los siguientes criterios, ¿Qué considera debería mejorar?</h3>
-        <asp:RadioButtonList ID="RadioButtonList3" runat="server">
+        <asp:RadioButtonList ID="RadioButtonList3" runat="server" Height="83px">
                <asp:ListItem>Atención</asp:ListItem>
                <asp:ListItem>Calidad del Servicio</asp:ListItem>
                <asp:ListItem>Tiempo de atención</asp:ListItem>
@@ -119,7 +113,7 @@
             <asp:ListItem>2 veces al mes</asp:ListItem>
             <asp:ListItem>1 vez al mes</asp:ListItem>
         </asp:RadioButtonList>
-       <p style="text-align:center" ><asp:Button ID="Button1" runat="server" Text="Enviar" Height="40px" Width="300px" /></p> 
+       <p style="text-align:center" ><asp:Button ID="Button1" runat="server" Text="Enviar" Height="40px" Width="300px" OnClick="Button1_Click" /></p> 
     </form>
 </body>
 </html>

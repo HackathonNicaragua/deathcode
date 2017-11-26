@@ -56,9 +56,9 @@ public partial class Default2 : System.Web.UI.Page
 
     private DataTable GetData()
     {
-        using (SqlConnection sqlConnection = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM; Integrated Security=true")) 
+        using (SqlConnection sqlConnection = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM; Integrated Security=true"))
         {
-            using (SqlCommand cmd = new SqlCommand("SELECT * from Usuario"))
+            using (SqlCommand cmd = new SqlCommand("SELECT * from Respuesta"))
             {
                 using (SqlDataAdapter sda = new SqlDataAdapter())
                 {
@@ -71,7 +71,7 @@ public partial class Default2 : System.Web.UI.Page
                             sda.Fill(dt);
                             return dt;
                         }
-                        catch(Exception ex)
+                        catch (Exception ex)
                         {
                             throw (ex);
                         }
