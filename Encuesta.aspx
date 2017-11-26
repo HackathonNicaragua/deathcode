@@ -7,9 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body>
+<body style="height: 148px;background-color:#79B3C7">
     <form id="form1" runat="server">
-    <div style="text-align: center">
+    <div style="text-align: left">
         <H3>¿Cómo Valora el servicio recibido?</H3>
          <asp:RadioButtonList ID="RadioButtonList1" runat="server" BorderStyle="None" >
             <asp:ListItem Value="1">Bueno</asp:ListItem>
