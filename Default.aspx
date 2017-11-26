@@ -27,10 +27,10 @@
   </nav>
   <div class="sidebar hide-sidebar">
     <ul class="centered">
-      <li><i class="fa fa-home" aria-hidden="true"></i> Inicio&nbsp; </li>
+      <a href ="Default.aspx"><li><i class="fa fa-home" aria-hidden="true"></i> Inicio&nbsp; </li></a>
       <li><i class="fa fa-folder" aria-hidden="true"></i> Reporte</li>
       <li><i class="fa fa-paper-plane" aria-hidden="true"></i> Analisis</li>
-      <li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de</li>
+      <a href="Info.aspx"><li><i class="fa fa-info-circle" aria-hidden="true"></i> Acerca de</li></a>
     </ul>
   </div>
   <div class="main">
