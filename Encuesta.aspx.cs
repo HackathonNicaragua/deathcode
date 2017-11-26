@@ -34,7 +34,11 @@ public partial class Encuesta : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
 
+
         Valores();
+
+        Response.Write("<script language=javascript>alert('Agregado exitosamente');</script>");
+        Response.Redirect("Default.aspx");
 
     }
     protected void Valores()
