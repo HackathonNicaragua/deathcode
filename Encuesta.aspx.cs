@@ -9,6 +9,11 @@ public partial class Encuesta : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+       //RadioButtonList1.SelectedValue;
     }
+
+   
+
+    
+
 }

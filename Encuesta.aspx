@@ -44,9 +44,61 @@
        </div>
 
         <div><h3>¿Através de que medios se entero de la existencia de nuestro negocio?</h3>
+            <p>
+                <asp:RadioButtonList ID="RadioButtonList4" runat="server">
+                    <asp:ListItem>Rotulos</asp:ListItem>
+                    <asp:ListItem>Radio</asp:ListItem>
+                    <asp:ListItem>Mantas</asp:ListItem>
+                    <asp:ListItem>Recomendado por una persona</asp:ListItem>
+                    <asp:ListItem>Facebook</asp:ListItem>
+                </asp:RadioButtonList>
+            </p>
+
+        </div>
+        <div><h3>¿Utiliziaria usted nuevamente nuestro servicio?</h3>
+
 
 
         </div>
+        <asp:RadioButtonList ID="RadioButtonList5" runat="server" RepeatDirection="Horizontal">
+            <asp:ListItem>Si</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+            <asp:ListItem>Talvez</asp:ListItem>
+        </asp:RadioButtonList>
+
+        <div><h3>¿Recomendaría usted nuestro negocio?</h3>
+
+
+        </div>
+
+
+        <asp:RadioButtonList ID="RadioButtonList6" runat="server" RepeatDirection="Horizontal">
+            <asp:ListItem>Si</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+            <asp:ListItem>Talvez</asp:ListItem>
+        </asp:RadioButtonList>
+
+        <div><h3>¿Qué otro servicio le gustaría que ofrecieramos?</h3>
+              <asp:TextBox ID="TextOtroServicio" runat="server"></asp:TextBox>
+
+        </div>
+        <div><h3>¿Le ofrecieron alguna promoción?</h3>
+
+
+        </div>
+        <asp:RadioButtonList ID="RadioButtonList7" runat="server" RepeatDirection="Horizontal">
+            <asp:ListItem>Si</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+            <asp:ListItem>Talvez</asp:ListItem>
+        </asp:RadioButtonList>
+
+        <div><h3>¿Con que frecuencia visita nuestro servicio?</h3></div>
+        <asp:RadioButtonList ID="RadioButtonList8" runat="server">
+            <asp:ListItem>1 a 2 veces por semana</asp:ListItem>
+            <asp:ListItem>3 a 4 Veces por semana</asp:ListItem>
+            <asp:ListItem>2 Veces al mes</asp:ListItem>
+            <asp:ListItem>1 vez al mes</asp:ListItem>
+        </asp:RadioButtonList>
     </form>
 </body>
 </html>
