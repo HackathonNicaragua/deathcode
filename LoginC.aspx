@@ -8,9 +8,9 @@
     <title>Sistema SCM</title>
     <style></style>
 </head>
-<body>
+<body style="background-color:#79B3C7">
     <form id="form1" runat="server" style="padding: inherit; text-align: center; font-family: 'Segoe UI'; margin-right: inherit; height: 57px;">
-    <div style="text-align: center; background-color: #FFFFFF;">
+    <div style="text-align: center; background-color: #79B3C7;">
         <br /><br /><br /><h3>Bienvenidos</h3><br />
         <p>
             &nbsp;&nbsp;<h4>Usuario:&nbsp;
