@@ -7,10 +7,31 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body style="height: 148px;background-color:#79B3C7">
+<body style="height: 148px;background-color:#79B3C7; font-family:'Segoe UI'">
     <form id="form1" runat="server">
+        <div><h3>Seleccione su sexo</h3>
+            <p>
+                <asp:RadioButtonList ID="RadioButtonList9" runat="server" RepeatDirection="Horizontal">
+                    <asp:ListItem Value="1">Hombre</asp:ListItem>
+                    <asp:ListItem Value="2">Mujer</asp:ListItem>
+                </asp:RadioButtonList>
+            </p>
+        </div>
+
+        <div><h3>Seleccione su edad</h3>
+            <p>
+                <asp:RadioButtonList ID="RadioButtonList10" runat="server">
+                    <asp:ListItem Value="1">18-25 </asp:ListItem>
+                    <asp:ListItem Value="2">26-30</asp:ListItem>
+                    <asp:ListItem Value="3">31-40</asp:ListItem>
+                    <asp:ListItem Value="4">41-50</asp:ListItem>
+                    <asp:ListItem Value="5">51-60 más</asp:ListItem>
+                </asp:RadioButtonList>
+            </p>
+        </div>
+
     <div style="text-align: left">
-        <H3>¿Cómo Valora el servicio recibido?</H3>
+        <H3>¿Cómo valora el servicio recibido?</H3>
          <asp:RadioButtonList ID="RadioButtonList1" runat="server" BorderStyle="None" >
             <asp:ListItem Value="1">Bueno</asp:ListItem>
             <asp:ListItem Value="2">Regular</asp:ListItem>
@@ -19,7 +40,7 @@
         <br />
     </div>
         <div>
-            <h3>¿El tiempo de espera es el indicado?</h3>
+            <h3>¿Considera que el tiempo de espera es adecuado?<br />Seleccione un numero en el siguiente rango siendo 1 completamente inadecuado, y 10 completamente adecuado</h3>
             <asp:RadioButtonList ID="RadioButtonList2" runat="server" Height="16px" RepeatDirection="Horizontal" Width="50px">
                 <asp:ListItem>1</asp:ListItem>
                 <asp:ListItem>2</asp:ListItem>
@@ -35,7 +56,7 @@
         </div>
 
        <div>
-           <h3>¿Qué Debería mejorar?</h3>
+           <h3>De los siguientes criterios, ¿Qué considera debería mejorar?</h3>
         <asp:RadioButtonList ID="RadioButtonList3" runat="server">
                <asp:ListItem>Atención</asp:ListItem>
                <asp:ListItem>Calidad del Servicio</asp:ListItem>
@@ -55,7 +76,7 @@
             </p>
 
         </div>
-        <div><h3>¿Utiliziaria usted nuevamente nuestro servicio?</h3>
+        <div><h3>¿Utilizaria usted nuevamente nuestro servicio?</h3>
 
 
 
@@ -63,7 +84,7 @@
         <asp:RadioButtonList ID="RadioButtonList5" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem>Si</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
-            <asp:ListItem>Talvez</asp:ListItem>
+            <asp:ListItem>Tal vez</asp:ListItem>
         </asp:RadioButtonList>
 
         <div><h3>¿Recomendaría usted nuestro negocio?</h3>
@@ -75,7 +96,7 @@
         <asp:RadioButtonList ID="RadioButtonList6" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem>Si</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
-            <asp:ListItem>Talvez</asp:ListItem>
+            <asp:ListItem>Tal vez</asp:ListItem>
         </asp:RadioButtonList>
 
         <div><h3>¿Qué otro servicio le gustaría que ofrecieramos?</h3>
@@ -89,16 +110,17 @@
         <asp:RadioButtonList ID="RadioButtonList7" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem>Si</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
-            <asp:ListItem>Talvez</asp:ListItem>
+            <asp:ListItem>Tal vez</asp:ListItem>
         </asp:RadioButtonList>
 
         <div><h3>¿Con que frecuencia visita nuestro servicio?</h3></div>
         <asp:RadioButtonList ID="RadioButtonList8" runat="server">
             <asp:ListItem>1 a 2 veces por semana</asp:ListItem>
-            <asp:ListItem>3 a 4 Veces por semana</asp:ListItem>
-            <asp:ListItem>2 Veces al mes</asp:ListItem>
+            <asp:ListItem>3 a 4 veces por semana</asp:ListItem>
+            <asp:ListItem>2 veces al mes</asp:ListItem>
             <asp:ListItem>1 vez al mes</asp:ListItem>
         </asp:RadioButtonList>
+       <p style="text-align:center" ><asp:Button ID="Button1" runat="server" Text="Enviar" Height="40px" Width="300px" /></p> 
     </form>
 </body>
 </html>

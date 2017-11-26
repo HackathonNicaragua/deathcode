@@ -12,8 +12,10 @@ public partial class Encuesta : System.Web.UI.Page
        //RadioButtonList1.SelectedValue;
     }
 
-   
+
+
+
+
 
     
-
 }
