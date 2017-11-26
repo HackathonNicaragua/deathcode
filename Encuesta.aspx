@@ -18,7 +18,8 @@
         </asp:RadioButtonList>
         <br />
     </div>
-        <div><h3>¿El tiempo de espera es el indicado?</h3>
+        <div>
+            <h3>¿El tiempo de espera es el indicado?</h3>
             <asp:RadioButtonList ID="RadioButtonList2" runat="server" Height="16px" RepeatDirection="Horizontal" Width="50px">
                 <asp:ListItem>1</asp:ListItem>
                 <asp:ListItem>2</asp:ListItem>
@@ -31,18 +32,16 @@
                 <asp:ListItem>9</asp:ListItem>
                 <asp:ListItem>10</asp:ListItem>
             </asp:RadioButtonList>
-            <br />
         </div>
 
-       <div><h3>¿Qué Debería mejorar?</h3>
-           
-&nbsp;<asp:TextBox ID="TextBox1" runat="server" Width="163px"></asp:TextBox>
+       <div>
+           <h3>¿Qué Debería mejorar?</h3>
+        <asp:RadioButtonList ID="RadioButtonList3" runat="server">
+               <asp:ListItem>Atención</asp:ListItem>
+               <asp:ListItem>Calidad del Servicio</asp:ListItem>
+               <asp:ListItem>Tiempo de atención</asp:ListItem>
+           </asp:RadioButtonList>
        </div>
-
-
-       
-
-
     </form>
 </body>
 </html>
