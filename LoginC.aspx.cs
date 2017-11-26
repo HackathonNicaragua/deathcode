@@ -14,6 +14,13 @@ public partial class LoginC : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
+        acesso A = new acesso();
+        A.usuario = TextBox1.Text;
+        A.contraseña = TextBox2.Text;
+        A.ingresar()
+            }
+
+      
         
     }
 }
