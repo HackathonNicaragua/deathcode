@@ -17,8 +17,9 @@ public partial class LoginC : System.Web.UI.Page
         acesso A = new acesso();
         A.usuario = TextBox1.Text;
         A.contraseña = TextBox2.Text;
-        A.ingresar()
-            }
+        A.ingresar();
+
+        Response.Redirect("Default.aspx");
 
       
         

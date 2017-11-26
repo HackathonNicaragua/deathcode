@@ -17,7 +17,7 @@ public class conexion
         // TODO: Agregar aquí la lógica del constructor
         //
     }
-    SqlConnection c = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=.; Integrated Security=true");
+    SqlConnection c = new SqlConnection("Server=MALEISHOPC\\SQLEXPRESS; DataBase=SCM1; Integrated Security=true");
 
     public void open()
     {

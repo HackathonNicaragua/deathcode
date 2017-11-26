@@ -19,20 +19,20 @@ public class acesso
     public string contraseña { get; set; }
 
     public void ingresar() {
-        List<parametros> lista = new List<parametros>;
+        List<parametros> lista = new List<parametros>();
         try
         {
 
             lista.Add(new parametros("@usuario", usuario));
             lista.Add(new parametros("@PASS", contraseña));
-            c.EjecutarProcAlm("@Valida_Usuario", lista);
+            c.EjecutarProcAlm("Valida_Usuario", lista);
             
 
         }
-        catch (Exception)
+        catch (Exception ex)
         {
 
-            throw;
+            throw(ex);
         }
 
 
